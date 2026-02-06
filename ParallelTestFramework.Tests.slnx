@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ParallelTestFramework.Tests.v3/ParallelTestFramework.Tests.v3.csproj" />
+  <Project Path="ParallelTestFramework.Tests/ParallelTestFramework.Tests.csproj" />
+</Solution>
