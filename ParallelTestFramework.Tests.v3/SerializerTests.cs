@@ -39,7 +39,7 @@ public class SerializerTests
 
     [Theory]
     [MemberData(nameof(TestCases))]
-    public async Task Serialize_Test(Person person)
+    public async Task JsonSerializer_Test(Person person)
     {
         await Task.Delay(TimeSpan.FromMilliseconds(3000));
     }
