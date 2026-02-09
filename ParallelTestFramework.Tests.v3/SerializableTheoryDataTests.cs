@@ -41,7 +41,6 @@ public class SerializableTheoryDataTests
     public static readonly TheoryData<XunitSerializable<Person>> SerializableTestCases = new(People.Select(m => new XunitSerializable<Person>(m)));
 
     [Theory]
-
     [MemberData(nameof(TestCases))]
     public async Task NonSerializable_Test(Person person)
     {
